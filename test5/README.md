@@ -36,15 +36,25 @@ CONNECT BY PRIOR EMPLOYEE_ID = MANAGER_ID
 
 ### 实验步骤：
 1、创建包
+
 ![1](./1.png)
+
 2、在MyPack中创建一个函数SaleAmount和游标。
+
 ![2](./2.png)
+
 3、查询部门表，统计每个部门的销售总金额
+
 ![3](./3.png)
+
 4、函数Get_SaleAmount()测试方法。
+
 ![4](./4.png)
+
 5、过程Get_Employees()测试代码。
+
 ![5](./5.png)
 
 * 如何提高统计的速度？
+
 答：分区查询或者使用索引。
